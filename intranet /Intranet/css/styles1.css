@@ -1,0 +1,69 @@
+/* Imagen de fondo*/
+body{
+    background-image: url("../fotos/nom.jpg");
+}
+/* Menu de arriba*/
+table {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    border: black 0px solid;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    float: left;
+    text-decoration: none;
+    background-color: #737373;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+.menu li{
+    float: left;
+    padding: 1em 2em 1em 2em;
+    list-style-type: none;
+} 
+.menu li:hover{
+    background:gray;
+}
+.menu li a{
+    font-size: 16px;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+/* Logo del la empresa */
+.logo{
+    text-align: center;
+}
+/* titulos*/
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+/* textos */
+p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+/* boton de tornar*/
+header #tornar{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+header #tornar a{
+    color: white;
+    text-decoration: none;
+}
